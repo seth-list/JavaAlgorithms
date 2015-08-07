@@ -1,4 +1,4 @@
-/**
+ï»¿/**
  * Auto Generated Java Class.
  */
 public class BouncingBalls {
@@ -9,7 +9,7 @@ public class BouncingBalls {
     
     Ball[] balls = new Ball[N];
     for (int i = 0; i < N; i++)
-      //ðàññ÷èòûâàåòñÿ ñêîðîñòü è ïîëîæåíèå
+      //Ñ€Ð°ÑÑÑ‡Ð¸Ñ‚Ñ‹Ð²Ð°ÐµÑ‚ÑÑ ÑÐºÐ¾Ñ€Ð¾ÑÑ‚ÑŒ Ð¸ Ð¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ
       balls[i] = new Ball(0.1 + 0.01*i, 0.1 + 0.01*i, 0.003*i, 0.003*i*Math.pow(-1,i), 0.001*i);
     
     while(true)
